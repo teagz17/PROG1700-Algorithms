@@ -1,4 +1,10 @@
-# comments
+"""
+teagan stewart
+w0302952
+PROG1700
+October 4th, 2023
+rock paper scissors program
+"""
 
 # import modules here
 import random
