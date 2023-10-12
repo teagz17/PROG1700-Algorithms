@@ -12,13 +12,10 @@ retraC
 ekiT
 repraH
 ekiM
-
-
-
-names = ["Mike", "Harper", "Tike", "Carter", "Porter", "Parker"]
-for name in names[::-1]:
-    print(name[::-1])
 """
+# names = ["Mike", "Harper", "Tike", "Carter", "Porter", "Parker"]
+# for name in names[::-1]:
+#     print(name[::-1])
 
 my_name = "Teagan"
 print(my_name[0])
