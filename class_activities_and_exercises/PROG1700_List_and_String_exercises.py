@@ -1,4 +1,6 @@
 """
+Teagan Stewart
+w0302952
 PROG1700
 lists and string exercise
 
