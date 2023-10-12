@@ -24,7 +24,8 @@ while attempts <= 5: # starts the loop
         if user_input >=1 and user_input<= 10: # user can only enter numbers betweeen 1 and 10
             if user_input == computer_value: # user wins
                 print("you're right, good job!")
-                attempts = 6 # ends the loop
+                print(f"you got the right answer after {attempts} attempt(s).")
+                attempts = 6
             else:
                 attempts = attempts + 1 # user has one less try
                 if user_input < computer_value: # gives the user hints
@@ -47,7 +48,6 @@ while attempts <= 5: # starts the loop
         print(f"attempt {attempts}/5")
 else: # end of the game, prints different messages depending on the outcome
     if user_input == computer_value: # prints if the user wins
-        print(f"you got the right answer after {attempts} attempt(s).")
         input(f"thanks for playing, {user_name}!")
     else: # prints if the user runs out of attempts
         input(f"better luck next time, {user_name}!")
