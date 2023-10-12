@@ -12,7 +12,7 @@ import random # imports the random module
 # variables
 attempts = 1 # sets the amount of attempts the user can make before the program closes
 computer_value = random.randrange(1,11,1) # generates a random number betwee 1 and 10. outside of the while loop so that the number stays the same each round
-name_attempts = 3 # security measure; gives the user 3 tries to enter a valid name, and closes the program if they don't.
+name_attempts = 3 # security measure; gives the user 3 tries to enter a valid name, and closes the program if they don't
 
 while name_attempts > 0:
     user_name = (input("welcome to the guessing game! please enter your name: ")) # asks the user their name
